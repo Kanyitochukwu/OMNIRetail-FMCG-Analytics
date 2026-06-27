@@ -1,11 +1,11 @@
 # OMNIRetail-FMCG-Analytics
 End-to-end SQL and Power BI sales and supply chain analytics for an Indian FMCG retail
 
-
+## Project Overview
 Have you ever wondered why your favorite item is suddenly out of stock at the grocery store? Usually, we assume it's because the product is highly popular, but data often tells a different story.
 I built this project to bridge the gap between front-end retail sales and back-end supply chain logistics using the Indian Fast-Moving Consumer Goods (FMCG) Sales dataset for 2024. My goal was to move beyond basic reporting and create an interactive, app-style analytical tool that directly answers the most critical questions a leadership team faces.
 
-# Executive Strategy (The "So What?")
+## Executive Strategy (The "So What?")
 Writing SQL queries and building charts is only half the job; the real value lies in solving business problems. Here is exactly how this data answers management's top questions:
 
 Why are sales declining?
@@ -28,13 +28,14 @@ Should the company expand into a new market?
 
 The data recommends a cautious approach. By evaluating revenue and profit margins across different cities and store formats, the analysis suggests testing new markets via Online/Omnichannel rollouts first. This secures high margins without the heavy physical overhead of brick-and-mortar stores.
 
-# The Tools I Used
+## Tools Used
  SQL: Used for the foundational data modeling. I wrote extensive queries (DDL, aggregations, conditional logic) to clean the data, extract descriptive statistics, and map out baseline trends before visualizing anything.
  
  Power BI: Used for advanced DAX, custom report tooltips, dynamic KPI risk cards, and continuous statistical charting.
+
  UI/UX Design: Designed with a "Modern Web App" aesthetic, featuring vertical navigation for an intuitive stakeholder experience.
 
-# The Dashboard Experience
+## Dashboard
 This dashboard operates like a premium software application, divided into three focused operational pages:
 
  Executive Overview: A high-level look at overall market performance, revenue distribution, and customer demographic breakdowns.
@@ -43,3 +44,11 @@ This dashboard operates like a premium software application, divided into three 
 
  Inventory & Operational Risk: The diagnostic center. This page features dynamic risk cards for Total Deficit Occurrences and a continuous scatter plot with a built-in statistical trendline mapping the exact relationship between vendor delays and out-of-stock risks.
 
+**Interactive Power BI Report:** [View Dashboard](https://app.powerbi.com/links/w7zjRpWZE6?ctid=22724e8d-42f9-4460-8d24-668c54838954&pbi_source=linkShare)
+
+## Repository Contents
+⁠SQL_Queries.sql⁠: The complete script containing the database schema and all analytical queries.
+
+⁠FMCG Dashboard png: A screenshot of Power BI file.
+
+⁠Dataset⁠: The raw and cleaned CSV files powering this analysis.
