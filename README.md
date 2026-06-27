@@ -5,6 +5,9 @@ End-to-end SQL and Power BI sales and supply chain analytics for an Indian FMCG 
 Have you ever wondered why your favorite item is suddenly out of stock at the grocery store? Usually, we assume it's because the product is highly popular, but data often tells a different story.
 I built this project to bridge the gap between front-end retail sales and back-end supply chain logistics using the Indian Fast-Moving Consumer Goods (FMCG) Sales dataset for 2024. My goal was to move beyond basic reporting and create an interactive, app-style analytical tool that directly answers the most critical questions a leadership team faces.
 
+## Data Source
+[Kaggle](https://www.kaggle.com/)
+
 ## Executive Strategy (The "So What?")
 Writing SQL queries and building charts is only half the job; the real value lies in solving business problems. Here is exactly how this data answers management's top questions:
 
